@@ -42,7 +42,7 @@ from .help import paginate_modules
 loop = asyncio.get_running_loop()
 
 STICKER = [
-    "CAACAgUAAx0CepnpNQABATUjZypavrymDoERINkF-M3u9JDQ6K8AAhoDAAIOnnlVpyrYiDnVgWYeBA",
+    "CAACAgQAAxkBAAIHrWeJ9F52e8bSX79H96WCG7wQ55xnAAKxFwACzfBRUI4Q_cdt4LH5HgQ",
 ]
 
 @app.on_message(group=-1)
