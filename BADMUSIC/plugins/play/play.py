@@ -30,8 +30,8 @@ from BADMUSIC import app
 # PLAY_COMMAND = get_command("PLAY_COMMAND")
 
 # The username and ID of the channel (not the ID)
-CHANNEL_USERNAME = 'HEROKUBIN_01'  # Replace with your channel's username
-CHANNEL_ID = -1002020205239  # Replace with your channel's chat ID (to access programmatically)
+CHANNEL_USERNAME = 'quizbys'  # Replace with your channel's username
+CHANNEL_ID = -1001927965979  # Replace with your channel's chat ID (to access programmatically)
 
 # Function to check if the bot is a member of the channel
 async def check_bot_in_channel():
@@ -102,12 +102,12 @@ async def play_commnd(
     # Check if the user is a verified user
     if not await is_served_user(user_id):
         await message.reply_text(
-            text="Error, You're Not A Verified User ❌\nPlease Click On The Below Button To Verify Yourself .",
+            text="Error, आप वेरीफाई यूजर नहीं हैं।❌ \n कृपया निचे क्लिक करें, उसके बाद सांग लगाए🥀.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Click For Play Or Verify Here",
+                            text="पहले यहाँ क्लिक करें।✅",
                             url=f"https://t.me/{app.username}?start=verify",
                         )
                     ]
