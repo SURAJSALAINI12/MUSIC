@@ -332,14 +332,14 @@ async def music_helper_cb(client, CallbackQuery, _):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="🤡 ᴏᴡɴᴇʀ 🤡", user_id=config.OWNER_ID[0]),
+            InlineKeyboardButton(text="♥️⃟🌿 ᴏᴡɴᴇʀ ♥️⃟🌿", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
                 text="📍sᴜᴅᴏᴇʀs📍", url=f"https://t.me/{app.username}?start=sudo"
             ),
         ],
         [
-            InlineKeyboardButton(text="🔗 ɪɴsᴛᴀ 🔗", url=f"instagram.com/lll_bad_munda_lll"),
-            InlineKeyboardButton(text="🔞18+🔞", url=f"https://t.me/UDNA_SP_BKP/25"),
+            InlineKeyboardButton(text="🔗 ɪɴsᴛᴀ 🔗", url=f"instagram.com/surajsaini_91"),
+            InlineKeyboardButton(text="♥️⃟🌿ϙᴜɪᴢ ʜᴜʙ ♥️⃟🌿", url=f"https://t.me/quizbys"),
         ],
         [
             InlineKeyboardButton(text="🔙 Back", callback_data="about")
@@ -355,13 +355,13 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
         [
             InlineKeyboardButton(
-                text="💫 ᴀᴅᴅ ᴍᴇ ᴍᴏʀᴇ ❤️",
+                text="♥️⃟🌿 ᴀᴅᴅ ᴍᴇ ᴍᴏʀᴇ ♥️⃟🌿",
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
         ],
         [
-            InlineKeyboardButton(text="🎧 ᴍᴜsɪᴄ 🎧", callback_data="music"),
-            InlineKeyboardButton(text="🤖 ᴍᴀɴᴇɢᴇᴍᴇɴᴛ 🤖", callback_data="settings_back_helper"),
+            InlineKeyboardButton(text="♥️⃟🌿 ᴍᴜsɪᴄ ♥️⃟🌿", callback_data="music"),
+            InlineKeyboardButton(text="♥️⃟🌿 ᴍᴀɴᴇɢᴇᴍᴇɴᴛ ♥️⃟🌿", callback_data="settings_back_helper"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
     ]
@@ -424,7 +424,7 @@ async def feature_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
         [
             InlineKeyboardButton(
-                text="💫 ᴀᴅᴅ ᴍᴇ ᴍᴏʀᴇ ❤️",
+                text="♥️⃟🌿 ᴀᴅᴅ ᴍᴇ ᴍᴏʀᴇ ♥️⃟🌿",
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
         ],
@@ -457,12 +457,12 @@ def back_to_music(_):
 async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
-            InlineKeyboardButton(text="✨ ᴅᴇᴠᴇʟᴏᴘᴇʀ ✨", callback_data="developer"),
-            InlineKeyboardButton(text="⚡ ғᴇᴀᴛᴜʀᴇ ⚡", callback_data="feature"),
+            InlineKeyboardButton(text="♥️⃟🌿 ᴅᴇᴠᴇʟᴏᴘᴇʀ ♥️⃟🌿", callback_data="developer"),
+            InlineKeyboardButton(text="♥️⃟🌿 ғᴇᴀᴛᴜʀᴇ ♥️⃟🌿", callback_data="feature"),
         ],
         [
-            InlineKeyboardButton(text="📝 ʙᴀsɪᴄ ɢᴜɪᴅᴇ 📓", callback_data="basic_guide"),
-            InlineKeyboardButton(text="✉️ ᴅᴏɴᴀᴛᴇ ✉️", callback_data="donate"),
+            InlineKeyboardButton(text="♥️⃟🌿 ʙᴀsɪᴄ ɢᴜɪᴅᴇ ♥️⃟🌿", callback_data="basic_guide"),
+            InlineKeyboardButton(text="♥️⃟🌿 ᴅᴏɴᴀᴛᴇ ♥️⃟🌿", callback_data="donate"),
         ],
         [InlineKeyboardButton(text="🔙 Back", callback_data="go_to_start")],
     ]
@@ -476,17 +476,17 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
 async def back_button_callback(client: Client, callback_query: CallbackQuery):
     keyboard = [
         [
-            InlineKeyboardButton(text="🤡 ᴏᴡɴᴇʀ 🤡", user_id=config.OWNER_ID[0]),
+            InlineKeyboardButton(text="♥️⃟🌿 ᴏᴡɴᴇʀ ♥️⃟🌿", user_id=config.OWNER_ID[0]),
             InlineKeyboardButton(
-                text="🗝️ ɢɪᴛʜᴜʙ 🗝️",
+                text="♥️⃟🌿 ɢɪᴛʜᴜʙ ♥️⃟🌿",
                 url="https://github.com/Badhacker98",
             ),
         ],
         [
-            InlineKeyboardButton(text="🗡️ ɢʀᴏᴜᴘ 🗡️", url=f"{config.SUPPORT_GROUP}"),
-            InlineKeyboardButton(text="⚔️ ᴄʜᴀɴɴᴇʟ ⚔️", url=f"{config.SUPPORT_CHANNEL}"),
+            InlineKeyboardButton(text="♥️⃟🌿 ɢʀᴏᴜᴘ ♥️⃟🌿", url=f"{config.SUPPORT_GROUP}"),
+            InlineKeyboardButton(text="♥️⃟🌿 ᴄʜᴀɴɴᴇʟ ♥️⃟🌿", url=f"{config.SUPPORT_CHANNEL}"),
         ],
-        [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
+        [InlineKeyboardButton(text="♥️⃟🌿 ʜᴏᴍᴇ ♥️⃟🌿", callback_data="go_to_start")],
     ]
 
     await callback_query.message.edit_text(
@@ -506,7 +506,7 @@ async def settings_back_callback(client: Client, callback_query: CallbackQuery):
 
 @app.on_callback_query(filters.regex("basic_guide"))
 async def settings_back_callback(client: Client, callback_query: CallbackQuery):
-    keyboard = [[InlineKeyboardButton(text="✯ ʙᴀᴄᴋ ✯", callback_data="about")]]
+    keyboard = [[InlineKeyboardButton(text="♥️⃟🌿 ʙᴀᴄᴋ ♥️⃟🌿", callback_data="about")]]
     guide_text = f"<blockquote><b>ʜᴇʀᴇ ᴀʀᴇ ᴛʜᴇ ᴍᴜꜱɪᴄ ᴏᴘᴛɪᴏɴꜱ...<blockquote><b>**ʜᴇʏ! ᴛʜɪs ɪs ᴀ ǫᴜɪᴄᴋ ᴀɴᴅ sɪᴍᴘʟᴇ ɢᴜɪᴅᴇ ᴛᴏ ᴜsɪɴɢ** {app.mention} **🎉**\n\n**1. ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ 'ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʟᴀɴ' ʙᴜᴛᴛᴏɴ.**\n**2. sᴇʟᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɴᴀᴍᴇ.**\n**3. ɢʀᴀɴᴛ ᴛʜᴇ ʙᴏᴛ ᴀʟʟ ɴᴇᴄᴇssᴀʀʏ ᴘᴇʀᴍɪssɪᴏɴs ғᴏʀ sᴍᴏᴏᴛʜ ᴀɴᴅ ғᴜʟʟ ғᴜɴᴄᴛɪᴏɴᴀʟɪᴛʏ.**\n\n**ᴛᴏ ᴀᴄᴄᴇss ᴄᴏᴍᴍᴀɴᴅs, ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏsᴇ ʙᴇᴛᴡᴇᴇɴ ᴍᴜsɪᴄ ᴏʀ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴘʀᴇғᴇʀᴇɴᴄᴇs.**\n**ɪғ ʏᴏᴜ sᴛɪʟʟ ғᴀᴄᴇ ᴀɴʏ ɪssᴜᴇs, ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ʀᴇᴀᴄʜ ᴏᴜᴛ ғᴏʀ sᴜᴘᴘᴏʀᴛ ✨**<blockquote><b>"
     await callback_query.message.edit_text(
         text=guide_text, reply_markup=InlineKeyboardMarkup(keyboard)
