@@ -66,7 +66,7 @@ async def ban_new(client, message):
 async def start_comm(client, message: Message, _):
     chat_id = message.chat.id
     await add_served_user(message.from_user.id)
-    await message.react("🥂")
+    await message.react("♥️")
     # Send message to owner when bot is started by a user
     for owner_id in config.OWNER_ID:
         await app.send_message(
