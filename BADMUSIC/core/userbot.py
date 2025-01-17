@@ -1,5 +1,5 @@
 # Copyright (C) 2024 by Badhacker98@Github, < https://github.com/Badhacker98 >.
-# Owner https://t.me/ll_BAD_MUNDA_ll
+# Owner https://t.me/cute_boy91
 
 
 from typing import Callable, Optional
@@ -64,16 +64,16 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("PBX_CHAT")
-                await self.one.join_chat("HEROKUBIN_01")
-                await self.one.join_chat("ll_BAD_MUNDA_WORLD_ll")
-                await self.one.join_chat("ll_BAD_ABOUT_ll")
+                await self.one.join_chat("quizbys")
+                await self.one.join_chat("quizbysu")
+                await self.one.join_chat("quizbys2")
+                await self.one.join_chat("https://t.me/+P4Pzdo08byRkOWQ1")
             except:
                 pass
             assistants.append(1)
             clients.append(self.one)
             try:
-                await self.one.send_message(config.LOG_GROUP_ID, "💫 ᴀssɪsᴛᴀɴᴛ ᴏɴᴇ sᴛᴀʀᴛᴇᴅ ❤️")
+                await self.one.send_message(config.LOG_GROUP_ID, "🕊️⃟♥️ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛ🕊️⃟♥️")
             except:
                 LOGGER(__name__).info(
                     f"Assistant Account 1 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -92,16 +92,16 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("ll_BAD_ABOUT_ll")
-                await self.two.join_chat("ll_BAD_MUNDA_WORLD_ll")
-                await self.two.join_chat("HEROKUBIN_01")
-                await self.two.join_chat("PBX_CHAT")
+                await self.two.join_chat("quizbys")
+                await self.two.join_chat("quizbysu")
+                await self.two.join_chat("quizbys2")
+                await self.two.join_chat("https://t.me/+P4Pzdo08byRkOWQ1")
             except:
                 pass
             assistants.append(2)
             clients.append(self.two)
             try:
-                await self.two.send_message(config.LOG_GROUP_ID, "💫 ᴀssɪsᴛᴀɴᴛ ᴛᴡᴏ sᴛᴀʀᴛᴇᴅ ❤️")
+                await self.two.send_message(config.LOG_GROUP_ID, "🕊️⃟♥️ᴀssɪsᴛᴀɴᴛ sᴛᴀʀᴛ🕊️⃟♥️")
             except:
                 LOGGER(__name__).error(
                     f"Assistant Account 2 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -120,16 +120,16 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("ll_BAD_ABOUT_ll")
-                await self.three.join_chat("ll_BAD_MUNDA_WORLD_ll")
-                await self.three.join_chat("HEROKUBIN_01")
-                await self.three.join_chat("PBX_CHAT")
+                await self.three.join_chat("quizbys")
+                await self.three.join_chat("quizbysu")
+                await self.three.join_chat("quizbys2")
+                await self.three.join_chat("https://t.me/+P4Pzdo08byRkOWQ1")
             except:
                 pass
             assistants.append(3)
             clients.append(self.three)
             try:
-                await self.three.send_message(config.LOG_GROUP_ID, "Assistant Started")
+                await self.three.send_message(config.LOG_GROUP_ID, "🕊️⃟♥️Assistant Start🕊️⃟♥️")
             except:
                 LOGGER(__name__).error(
                     f"Assistant Account 3 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -148,16 +148,16 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("ll_BAD_ABOUT_ll")
-                await self.four.join_chat("ll_BAD_MUNDA_WORLD_ll")
-                await self.four.join_chat("HEROKUBIN_01")
-                await self.four.join_chat("PBX_CHAT")
+                await self.four.join_chat("quizbys")
+                await self.four.join_chat("quizbysu")
+                await self.four.join_chat("quizbys2")
+                await self.four.join_chat("https://t.me/+P4Pzdo08byRkOWQ1")
             except:
                 pass
             assistants.append(4)
             clients.append(self.four)
             try:
-                await self.four.send_message(config.LOG_GROUP_ID, "Assistant Started")
+                await self.four.send_message(config.LOG_GROUP_ID, "🕊️⃟♥️Assistant Started🕊️⃟♥️")
             except:
                 LOGGER(__name__).error(
                     f"Assistant Account 4 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
@@ -176,16 +176,16 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("ll_BAD_ABOUT_ll")
-                await self.five.join_chat("ll_BAD_MUNDA_WORLD_ll")
-                await self.five.join_chat("HEROKUBIN_01")
-                await self.five.join_chat("PBX_CHAT")
+                await self.five.join_chat("quizbys")
+                await self.five.join_chat("quizbysu")
+                await self.five.join_chat("quizbys2")
+                await self.five.join_chat("https://t.me/+P4Pzdo08byRkOWQ1")
             except:
                 pass
             assistants.append(5)
             clients.append(self.five)
             try:
-                await self.five.send_message(config.LOG_GROUP_ID, "Assistant Started")
+                await self.five.send_message(config.LOG_GROUP_ID, "🕊️⃟♥️Assistant Started🕊️⃟♥️")
             except:
                 LOGGER(__name__).error(
                     f"Assistant Account 5 has failed to access the log Group. Make sure that you have added your assistant to your log group and promoted as admin! "
